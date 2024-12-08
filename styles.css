@@ -1,0 +1,165 @@
+/* Restablecer márgenes y establecer un sistema coherente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del sitio */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+    line-height: 1.6; /* Facilita la lectura */
+}
+
+/* Encabezado */
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 50px; /* Asegura que el logo no sea demasiado grande */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Añade un efecto suave al pasar el ratón */
+}
+
+header nav ul li a:hover {
+    color: #0078D7; /* Resalta el enlace activo */
+}
+
+/* Sección principal */
+.hero {
+    background: #444;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #0078D7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #005bb5; /* Oscurece ligeramente el color para el efecto hover */
+}
+
+/* Sección de servicios */
+.services {
+    padding: 20px;
+    background: #222;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Asegura que los servicios se ajusten en pantallas pequeñas */
+}
+
+.service {
+    background: #333;
+    border: 1px solid #555;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Sobre nosotros */
+.about {
+    background: #444;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Sección de contacto */
+.contact {
+    padding: 20px;
+    background: #222;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, 
+.contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.contact .btn {
+    padding: 10px;
+    background: #0078D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact .btn:hover {
+    background: #005bb5; /* Resalta el botón cuando pasa el cursor */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
