@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: white;
+    background: black;
+    color: red;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: red;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s ease; 
@@ -63,8 +63,8 @@ header nav ul li a:hover {
 
 .hero .btn {
     padding: 10px 20px;
-    background: #0078D7;
-    color: white;
+    background: black;
+    color: red;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s ease;
@@ -93,11 +93,12 @@ header nav ul li a:hover {
 }
 
 .service {
-    background: #333;
+    background: black;
     border: 1px solid #555;
     padding: 20px;
     width: 300px;
     border-radius: 5px;
+    color: red;
 }
 
 .about {
@@ -136,8 +137,8 @@ header nav ul li a:hover {
 
 .contact .btn {
     padding: 10px;
-    background: #0078D7;
-    color: white;
+    background: black;
+    color: red;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -155,3 +156,4 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
